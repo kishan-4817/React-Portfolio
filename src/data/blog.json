@@ -1,0 +1,27 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Building Scalable React Applications",
+      "slug": "building-scalable-react-applications",
+      "excerpt": "Learn the best practices for building large-scale React applications with optimal performance.",
+      "coverImage": "/assets/blog/react-scaling.jpg",
+      "category": "React",
+      "date": "2024-03-15",
+      "readTime": 8,
+      "author": {
+        "name": "John Doe",
+        "role": "Senior Developer",
+        "avatar": "/assets/authors/john.jpg"
+      }
+    }
+  ],
+  "categories": [
+    "all",
+    "React",
+    "JavaScript",
+    "CSS",
+    "DevOps",
+    "Career"
+  ]
+} 

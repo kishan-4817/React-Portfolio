@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Portfolio Website",
+        "description": "A sleek React and Tailwind portfolio website.",
+        "image": "/assets/projects/portfolio.png",
+        "github": "https://github.com/kishan/portfolio",
+        "live": "https://kishan.netlify.app"
+    },
+    {
+        "id": 2,
+        "title": "MovieLand",
+        "description": "A React-based movie listing app using OMDb API.",
+        "image": "/assets/projects/movieland.png",
+        "github": "https://github.com/kishan/movieland",
+        "live": "https://movieland.netlify.app"
+    }
+]

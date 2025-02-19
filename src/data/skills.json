@@ -1,0 +1,6 @@
+{
+    "languages": ["JavaScript", "TypeScript", "HTML", "CSS"],
+    "frameworks": ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
+    "tools": ["Git", "Figma", "Netlify", "Vite"]
+  }
+  
