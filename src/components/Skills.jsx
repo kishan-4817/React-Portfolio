@@ -97,8 +97,6 @@ export default function Skills() {
     <div className="relative flex w-full flex-col items-center justify-center py-8">
       <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Skills & Technologies</h2>
       <div className="w-full max-w-7xl mx-auto overflow-x-hidden overflow-y-hidden relative">
-        <div className="absolute top-0 bottom-0 left-0 w-[200px] h-full bg-gradient-to-r from-background to-transparent z-10 pointer-events-none" />
-        <div className="absolute top-0 bottom-0 right-0 w-[200px] h-full bg-gradient-to-l from-background to-transparent z-10 pointer-events-none" />
         <div className="flex flex-col gap-4">
           <div className="marquee-line items-center">
             {skills.map((skill) => (
