@@ -1,3 +1,6 @@
+import React from "react";
+import { motion } from "framer-motion";
+
 const skills = [
   {
     name: "React",
@@ -95,7 +98,19 @@ const SkillCard = ({ icon, name, category }) => {
 export default function Skills() {
   return (
     <div className="relative flex w-full flex-col items-center justify-center py-8">
-      <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Skills & Technologies</h2>
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="text-center mb-12"
+      >
+        <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          Skills & Technologies
+        </h2>
+        <p className="text-gray-400 max-w-2xl mx-auto text-lg">
+          My technical expertise and tools I work with
+        </p>
+      </motion.div>
       <div className="w-full max-w-7xl mx-auto px-4">
         <div className="flex flex-col gap-4 overflow-hidden">
           <div className="marquee-line items-center w-full">

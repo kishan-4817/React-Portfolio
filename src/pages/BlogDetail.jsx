@@ -1,17 +1,30 @@
 import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import BlogPostCard from "@/components/blog/BlogPostCard";
 import blogData from "../data/blogData.json";
 
-const Blog = () => {
-  const [posts, setPosts] = useState([]);
+const BlogDetail = () => {
+  const { slug } = useParams();
+  const [post, setPost] = useState(null);
 
   useEffect(() => {
-    setPosts(blogData.posts);
-  }, []);
+    const foundPost = blogData.posts.find((p) => p.slug === slug);
+    setPost(foundPost);
+  }, [slug]);
+
+  if (!post) {
+    return (
+      <>
+        <Header />
+        <div className="min-h-screen bg-[var(--background)] flex items-center justify-center">
+          <h1 className="text-2xl text-gray-400">Post not found</h1>
+        </div>
+        <Footer />
+      </>
+    );
+  }
 
   return (
     <>
@@ -32,20 +45,23 @@ const Blog = () => {
             className="text-center mb-12"
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-              My Blog
+              {post.title}
             </h1>
             <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-              Thoughts, tutorials, and insights about web development and technology
+              {post.excerpt}
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {posts.map((post) => (
-              <Link to={`/blog/${post.slug}`} key={post.id}>
-                <BlogPostCard post={post} />
-              </Link>
-            ))}
-          </div>
+          <motion.article
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="prose prose-invert max-w-none"
+          >
+            <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl border border-gray-700/50 p-8">
+              {post.content}
+            </div>
+          </motion.article>
         </main>
       </div>
       <Footer />
@@ -53,4 +69,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default BlogDetail; 

@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/logo-vect.svg";
 
 const Footer = () => {
   const socialLinks = [
@@ -54,8 +55,9 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-5">
             <div className="space-y-6">
-              <div>
-                <span className="text-2xl font-bold text-white">Your Name</span>
+              <div className="flex items-center gap-2">
+                <img src={logo} alt="Logo" className="h-10 w-10" />
+                <span className="text-2xl font-bold text-white">Kishan</span>
               </div>
               <p className="text-gray-400">
                 Building digital experiences that make a difference. Full-stack developer passionate about creating elegant solutions.
@@ -108,16 +110,19 @@ const Footer = () => {
                 <ul className="space-y-3">
                   <li>
                     <a
-                      href="mailto:your.email@example.com"
+                      href="mailto:kishandhandhukiya8gmail.com"
                       className="text-gray-400 hover:text-white transition-colors duration-300"
                     >
-                      your.email@example.com
+                      kishandhandhukiya8gmail.com
                     </a>
                   </li>
                   <li>
-                    <p className="text-gray-400">
-                      Based in Your Location
-                    </p>
+                    <a
+                      href="tel:+919737576146"
+                      className="text-gray-400 hover:text-white transition-colors duration-300"
+                    >
+                      +91 9737576146
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -128,7 +133,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-800/50">
           <p className="text-center text-gray-400">
-            © {new Date().getFullYear()} Your Name. All rights reserved.
+            © {new Date().getFullYear()} Kishan. All rights reserved.
           </p>
         </div>
       </div>

@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Getting Started with React",
+      "slug": "getting-started-with-react",
+      "excerpt": "Learn the basics of React and how to build your first application. This comprehensive guide covers everything from setup to deployment.",
+      "content": "Full blog content will go here...",
+      "date": "2024-03-20",
+      "category": "React",
+      "readTime": "5 min read",
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "tags": ["React", "JavaScript", "Web Development"]
+    },
+    {
+      "id": 2,
+      "title": "Advanced CSS Techniques",
+      "slug": "advanced-css-techniques",
+      "excerpt": "Discover modern CSS techniques to create stunning layouts. Learn about Grid, Flexbox, and advanced animations.",
+      "content": "Full blog content will go here...",
+      "date": "2024-03-19",
+      "category": "CSS",
+      "readTime": "7 min read",
+      "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "tags": ["CSS", "Web Design", "Frontend"]
+    },
+    {
+      "id": 3,
+      "title": "TypeScript Best Practices",
+      "slug": "typescript-best-practices",
+      "excerpt": "Master TypeScript with these essential tips and tricks. Learn how to write better, more maintainable code.",
+      "content": "Full blog content will go here...",
+      "date": "2024-03-18",
+      "category": "TypeScript",
+      "readTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "tags": ["TypeScript", "JavaScript", "Programming"]
+    }
+  ]
+} 

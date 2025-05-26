@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const projects = [
   {
@@ -60,15 +61,27 @@ const Projects = () => {
       <div className="absolute -bottom-[20rem] left-0 w-[40rem] h-[40rem] bg-purple-500/30 blur-[8rem] pointer-events-none" />
 
       <div className="container mx-auto max-w-screen-xl px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-semibold text-white mb-2">Featured Projects</h2>
-          <p className="text-gray-400">A collection of my recent work</p>
-        </div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="text-center mb-12"
+        >
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+            Featured Projects
+          </h2>
+          <p className="text-gray-400 max-w-2xl mx-auto text-lg">
+            A collection of my recent work and development projects
+          </p>
+        </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <div
+            <motion.div
               key={index}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
               className="group bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700/50 shadow-lg hover:shadow-purple-500/10 transition-all duration-300"
             >
               <div className="relative overflow-hidden rounded-t-xl">
@@ -125,7 +138,7 @@ const Projects = () => {
                   </svg>
                 </a>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

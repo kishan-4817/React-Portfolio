@@ -1,5 +1,3 @@
-// Make sure to run npm install @formspree/react
-// For more help visit https://formspr.ee/react-help
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { 
@@ -85,24 +83,24 @@ const Contact = () => {
     {
       icon: <FaEnvelope className="text-white" />,
       title: "Email",
-      content: "your.email@example.com",
-      link: "mailto:your.email@example.com",
+      content: "kishandhandhukiya8gmail.com",
+      link: "mailto:kishandhandhukiya8gmail.com",
       gradient: "from-blue-500 to-purple-500",
       description: "Get in touch"
     },
     {
       icon: <FaPhone className="text-white" />,
       title: "Phone",
-      content: "+1 234 567 890",
-      link: "tel:+1234567890",
+      content: "+91 9737576146",
+      link: "tel:+919737576146",
       gradient: "from-purple-500 to-pink-500",
       description: "Call me"
     },
     {
       icon: <FaWhatsapp className="text-white" />,
       title: "WhatsApp",
-      content: "+1 234 567 890",
-      link: "https://wa.me/1234567890",
+      content: "+91 9737576146",
+      link: "https://wa.me/919737576146",
       gradient: "from-green-500 to-teal-500",
       description: "Message me"
     }
