@@ -96,9 +96,9 @@ export default function Skills() {
   return (
     <div className="relative flex w-full flex-col items-center justify-center py-8">
       <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Skills & Technologies</h2>
-      <div className="w-full max-w-7xl mx-auto overflow-x-hidden overflow-y-hidden relative">
-        <div className="flex flex-col gap-4">
-          <div className="marquee-line items-center">
+      <div className="w-full max-w-7xl mx-auto px-4">
+        <div className="flex flex-col gap-4 overflow-hidden">
+          <div className="marquee-line items-center w-full">
             {skills.map((skill) => (
               <SkillCard key={skill.name} {...skill} />
             ))}
@@ -106,7 +106,7 @@ export default function Skills() {
               <SkillCard key={`${skill.name}-duplicate`} {...skill} />
             ))}
           </div>
-          <div className="marquee-line-reverse items-center">
+          <div className="marquee-line-reverse items-center w-full">
             {skills.map((skill) => (
               <SkillCard key={`${skill.name}-reverse`} {...skill} />
             ))}

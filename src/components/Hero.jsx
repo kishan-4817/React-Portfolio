@@ -7,9 +7,9 @@ import { BorderBeam } from "../components/magicui/border-beam";
 const Hero = () => {
   return (
     <>
-    <section className="bg-[var(--background)] text-[var(--foreground)] py-20 md:py-32">
+    <section className="bg-[var(--background)] text-[var(--foreground)] py-12 md:py-32">
       <div className="container mx-auto max-w-screen-xl px-4 flex flex-col md:flex-row items-center md:justify-between">
-        <div className="md:w-1/2 md:pr-12">
+        <div className="md:w-1/2 md:pr-12 mb-8 md:mb-0">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 md:mb-8">
             I'm Kishan
           </h1>
@@ -33,10 +33,10 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
       <div className="absolute inset-0 pointer-events-none">
         <Meteors number={30} minDelay={0.2} maxDelay={1.2} minDuration={2} maxDuration={10} angle={215} />
       </div>
+    </section>
     </>
   );
 };

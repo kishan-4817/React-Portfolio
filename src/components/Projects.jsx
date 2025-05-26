@@ -49,7 +49,7 @@ const projects = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
     ],
     category: "Mobile App"
-  }
+  } 
 ];
 
 const Projects = () => {
@@ -59,7 +59,7 @@ const Projects = () => {
       <div className="absolute -top-[20rem] right-0 w-[40rem] h-[40rem] bg-indigo-500/30 blur-[8rem] pointer-events-none" />
       <div className="absolute -bottom-[20rem] left-0 w-[40rem] h-[40rem] bg-purple-500/30 blur-[8rem] pointer-events-none" />
 
-      <div className="container mx-auto max-w-screen-xl">
+      <div className="container mx-auto max-w-screen-xl px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-semibold text-white mb-2">Featured Projects</h2>
           <p className="text-gray-400">A collection of my recent work</p>

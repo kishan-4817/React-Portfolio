@@ -17,7 +17,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="p-4 border-b border-[var(--secondary)] relative bg-[var(--background)] z-20">
+    <header className="py-4 border-b border-[var(--secondary)] relative bg-[var(--background)] z-20">
       <div className="container mx-auto flex justify-between items-center text-[var(--foreground)] max-w-screen-xl px-4">
         <h1 className="text-2xl font-bold">
           <Link to="/" className="flex items-center gap-2"> <img src={logo} alt="Logo" className="h-10 w-10" /> Kishan </Link>

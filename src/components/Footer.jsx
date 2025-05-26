@@ -49,7 +49,7 @@ const Footer = () => {
 
   return (
     <footer className="relative py-16">
-      <div className="container mx-auto px-4 relative">
+      <div className="container max-w-screen-xl mx-auto px-4 relative">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-12">
           {/* Brand Section */}
           <div className="lg:col-span-5">
