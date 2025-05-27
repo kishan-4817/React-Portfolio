@@ -1,0 +1,53 @@
+{
+  "projects": [
+    {
+      "title": "E-Commerce Platform",
+      "image": "/src/assets/images/projects/ecommerce.jpg",
+      "link": "#",
+      "details": "A full-stack e-commerce platform with real-time inventory management, payment processing, and user authentication.",
+      "techStack": [
+        "/src/assets/images/tech/react.svg",
+        "/src/assets/images/tech/nodejs.svg",
+        "/src/assets/images/tech/mongodb.svg",
+        "/src/assets/images/tech/tailwind.svg"
+      ],
+      "category": "Full Stack"
+    },
+    {
+      "title": "AI Image Generator",
+      "image": "/src/assets/images/projects/ai-generator.jpg",
+      "link": "#",
+      "details": "An AI-powered image generation tool that creates unique artwork based on text prompts using machine learning.",
+      "techStack": [
+        "/src/assets/images/tech/python.svg",
+        "/src/assets/images/tech/tensorflow.svg",
+        "/src/assets/images/tech/docker.svg"
+      ],
+      "category": "AI/ML"
+    },
+    {
+      "title": "Task Management App",
+      "image": "/src/assets/images/projects/task-manager.jpg",
+      "link": "#",
+      "details": "A collaborative task management application with real-time updates, team features, and progress tracking.",
+      "techStack": [
+        "/src/assets/images/tech/vuejs.svg",
+        "/src/assets/images/tech/firebase.svg",
+        "/src/assets/images/tech/typescript.svg"
+      ],
+      "category": "Web App"
+    },
+    {
+      "title": "Fitness Tracker",
+      "image": "/src/assets/images/projects/fitness-tracker.jpg",
+      "link": "#",
+      "details": "A comprehensive fitness tracking application with workout planning, progress visualization, and nutrition tracking.",
+      "techStack": [
+        "/src/assets/images/tech/react.svg",
+        "/src/assets/images/tech/redux.svg",
+        "/src/assets/images/tech/graphql.svg"
+      ],
+      "category": "Mobile App"
+    }
+  ]
+} 

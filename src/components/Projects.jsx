@@ -1,64 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
-
-const projects = [
-  {
-    title: "E-Commerce Platform",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&auto=format&fit=crop&q=60",
-    link: "#",
-    details: "A full-stack e-commerce platform with real-time inventory management, payment processing, and user authentication.",
-    techStack: [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-    ],
-    category: "Full Stack"
-  },
-  {
-    title: "AI Image Generator",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&auto=format&fit=crop&q=60",
-    link: "#",
-    details: "An AI-powered image generation tool that creates unique artwork based on text prompts using machine learning.",
-    techStack: [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
-    ],
-    category: "AI/ML"
-  },
-  {
-    title: "Task Management App",
-    image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?w=800&auto=format&fit=crop&q=60",
-    link: "#",
-    details: "A collaborative task management application with real-time updates, team features, and progress tracking.",
-    techStack: [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-    ],
-    category: "Web App"
-  },
-  {
-    title: "Fitness Tracker",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&auto=format&fit=crop&q=60",
-    link: "#",
-    details: "A comprehensive fitness tracking application with workout planning, progress visualization, and nutrition tracking.",
-    techStack: [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
-    ],
-    category: "Mobile App"
-  } 
-];
+import projectsData from "../data/projects.json";
 
 const Projects = () => {
+  const { projects } = projectsData;
+  
   return (
     <div className="relative py-16">
       {/* Gradient Effects */}
       <div className="absolute -top-[20rem] right-0 w-[40rem] h-[40rem] bg-indigo-500/30 blur-[8rem] pointer-events-none" />
-      <div className="absolute -bottom-[20rem] left-0 w-[40rem] h-[40rem] bg-purple-500/30 blur-[8rem] pointer-events-none" />
 
       <div className="container mx-auto max-w-screen-xl px-4">
         <motion.div

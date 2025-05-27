@@ -1,0 +1,52 @@
+{
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/yourusername",
+      "icon": "github",
+      "color": "hover:text-[#333]",
+      "gradient": "from-[#333] to-[#24292e]",
+      "description": "Check out my code"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/yourusername",
+      "icon": "linkedin",
+      "color": "hover:text-[#0077B5]",
+      "gradient": "from-[#0077B5] to-[#00a0dc]",
+      "description": "Connect professionally"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/yourusername",
+      "icon": "twitter",
+      "color": "hover:text-[#1DA1F2]",
+      "gradient": "from-[#1DA1F2] to-[#0d8bd9]",
+      "description": "Follow my updates"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/yourusername",
+      "icon": "instagram",
+      "color": "hover:text-[#E1306C]",
+      "gradient": "from-[#E1306C] to-[#833AB4]",
+      "description": "See my work"
+    },
+    {
+      "name": "Discord",
+      "url": "https://discord.gg/yourusername",
+      "icon": "discord",
+      "color": "hover:text-[#7289DA]",
+      "gradient": "from-[#7289DA] to-[#5865F2]",
+      "description": "Join my community"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/yourusername",
+      "icon": "telegram",
+      "color": "hover:text-[#0088cc]",
+      "gradient": "from-[#0088cc] to-[#00a2ff]",
+      "description": "Chat with me"
+    }
+  ]
+} 
