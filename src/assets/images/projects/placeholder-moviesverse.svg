@@ -1,0 +1,11 @@
+<svg width="400" height="250" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="250" rx="24" fill="#22223B"/>
+  <rect x="40" y="60" width="320" height="130" rx="16" fill="#4A4E69"/>
+  <rect x="60" y="90" width="80" height="50" rx="8" fill="#9A8C98"/>
+  <rect x="160" y="90" width="80" height="50" rx="8" fill="#C9ADA7"/>
+  <rect x="260" y="90" width="80" height="50" rx="8" fill="#F2E9E4"/>
+  <circle cx="80" cy="115" r="8" fill="#22223B"/>
+  <circle cx="180" cy="115" r="8" fill="#22223B"/>
+  <circle cx="280" cy="115" r="8" fill="#22223B"/>
+  <text x="200" y="210" text-anchor="middle" fill="#fff" font-size="28" font-family="Arial" font-weight="bold">MoviesVerse</text>
+</svg> 

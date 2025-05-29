@@ -1,0 +1,6 @@
+<svg width="400" height="250" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="250" rx="24" fill="#21759B"/>
+  <circle cx="200" cy="125" r="80" fill="#fff"/>
+  <text x="200" y="145" text-anchor="middle" fill="#21759B" font-size="64" font-family="Arial" font-weight="bold">W</text>
+  <text x="200" y="200" text-anchor="middle" fill="#fff" font-size="28" font-family="Arial" font-weight="bold">WordPress</text>
+</svg> 

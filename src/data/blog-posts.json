@@ -1,0 +1,40 @@
+{
+  "blogPosts": [
+    {
+      "title": "Getting Started with React",
+      "image": "/src/assets/images/blog/react-intro.jpg",
+      "link": "/blog/getting-started-with-react",
+      "details": "A comprehensive guide to getting started with React, covering the basics of components, state management, and hooks.",
+      "techStack": [
+        "/src/assets/images/tech/react.svg",
+        "/src/assets/images/tech/javascript.svg",
+        "/src/assets/images/tech/nodejs.svg"
+      ],
+      "category": "Web Development"
+    },
+    {
+      "title": "Advanced CSS Techniques",
+      "image": "/src/assets/images/blog/css-advanced.jpg",
+      "link": "/blog/advanced-css-techniques",
+      "details": "Exploring modern CSS techniques including Grid, Flexbox, and CSS animations for creating stunning web interfaces.",
+      "techStack": [
+        "/src/assets/images/tech/css.svg",
+        "/src/assets/images/tech/sass.svg",
+        "/src/assets/images/tech/tailwind.svg"
+      ],
+      "category": "Frontend"
+    },
+    {
+      "title": "Building RESTful APIs",
+      "image": "/src/assets/images/blog/rest-api.jpg",
+      "link": "/blog/building-restful-apis",
+      "details": "Learn how to design and implement RESTful APIs using Node.js and Express, with best practices and security considerations.",
+      "techStack": [
+        "/src/assets/images/tech/nodejs.svg",
+        "/src/assets/images/tech/express.svg",
+        "/src/assets/images/tech/mongodb.svg"
+      ],
+      "category": "Backend"
+    }
+  ]
+} 

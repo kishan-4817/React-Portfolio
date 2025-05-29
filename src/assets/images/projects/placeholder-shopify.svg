@@ -1,0 +1,7 @@
+<svg width="400" height="250" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="250" rx="24" fill="#95BF47"/>
+  <rect x="100" y="70" width="200" height="110" rx="20" fill="#fff"/>
+  <rect x="120" y="100" width="160" height="40" rx="10" fill="#95BF47"/>
+  <text x="200" y="145" text-anchor="middle" fill="#fff" font-size="40" font-family="Arial" font-weight="bold">S</text>
+  <text x="200" y="210" text-anchor="middle" fill="#fff" font-size="28" font-family="Arial" font-weight="bold">Shopify</text>
+</svg> 

@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
+import Services from "../components/Services";
 import Contact from "../components/Contact";
 import AnimatedSection from "../components/AnimatedSection";
 
@@ -20,6 +21,9 @@ const Home = () => {
             </AnimatedSection>
             <AnimatedSection id="projects">
                 <Projects />
+            </AnimatedSection>
+            <AnimatedSection id="services">
+                <Services />
             </AnimatedSection>
             <AnimatedSection id="contact">
                 <Contact />
