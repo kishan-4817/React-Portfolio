@@ -2,62 +2,62 @@
   "skills": [
     {
       "name": "React",
-      "icon": "/src/assets/images/tech/react.svg",
+      "icon": "/images/tech/react.svg",
       "category": "Frontend"
     },
     {
       "name": "JavaScript",
-      "icon": "/src/assets/images/tech/javascript.svg",
+      "icon": "/images/tech/javascript.svg",
       "category": "Language"
     },
     {
       "name": "TypeScript",
-      "icon": "/src/assets/images/tech/typescript.svg",
+      "icon": "/images/tech/typescript.svg",
       "category": "Language"
     },
     {
       "name": "Node.js",
-      "icon": "/src/assets/images/tech/nodejs.svg",
+      "icon": "/images/tech/nodejs.svg",
       "category": "Backend"
     },
     {
       "name": "Python",
-      "icon": "/src/assets/images/tech/python.svg",
+      "icon": "/images/tech/python.svg",
       "category": "Language"
     },
     {
       "name": "Git",
-      "icon": "/src/assets/images/tech/git.svg",
+      "icon": "/images/tech/git.svg",
       "category": "Tools"
     },
     {
       "name": "Docker",
-      "icon": "/src/assets/images/tech/docker.svg",
+      "icon": "/images/tech/docker.svg",
       "category": "DevOps"
     },
     {
       "name": "MongoDB",
-      "icon": "/src/assets/images/tech/mongodb.svg",
+      "icon": "/images/tech/mongodb.svg",
       "category": "Database"
     },
     {
       "name": "Tailwind CSS",
-      "icon": "/src/assets/images/tech/tailwind.svg",
+      "icon": "/images/tech/tailwind.svg",
       "category": "Frontend"
     },
     {
       "name": "Next.js",
-      "icon": "/src/assets/images/tech/nextjs.svg",
+      "icon": "/images/tech/nextjs.svg",
       "category": "Frontend"
     },
     {
       "name": "WordPress",
-      "icon": "/src/assets/images/tech/wordpress.svg",
+      "icon": "/images/tech/wordpress.svg",
       "category": "CMS"
     },
     {
       "name": "Shopify",
-      "icon": "/src/assets/images/tech/shopify.svg",
+      "icon": "/images/tech/shopify.svg",
       "category": "E-commerce"
     }
   ]

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo-vect.svg";
+import logo from "/logo-vect.svg";
 import navigationData from "../data/navigation.json";
 import socialData from "../data/social.json";
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaDiscord, FaTelegram } from "react-icons/fa";

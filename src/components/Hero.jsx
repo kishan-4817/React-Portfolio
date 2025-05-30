@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Profile from "../assets/Profile.jpg";
 import { Meteors } from "../components/magicui/meteors";
 import { BorderBeam } from "../components/magicui/border-beam";
 import { motion } from "framer-motion";
@@ -46,7 +45,7 @@ const Hero = () => {
               <BorderBeam size={200} duration={6} colorFrom="#ffaa40" colorTo="#9c40ff" />
             </div>
             <img
-              src={Profile}
+              src="/Profile.jpg"
               alt="Kishan's Portfolio"
               className="w-full h-auto rounded-lg shadow-lg relative z-0 p-2"
             />

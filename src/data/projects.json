@@ -2,97 +2,97 @@
   "projects": [
     {
       "title": "MoviesVerse",
-      "image": "/src/assets/images/projects/moviesverse.jpg",
+      "image": "/images/projects/moviesverse.jpg",
       "link": "https://moviesverse4u.netlify.app/",
       "details": "A modern movie streaming platform built with React, featuring movie listings, search functionality, and responsive design.",
       "techStack": [
-        "/src/assets/images/tech/react.svg",
-        "/src/assets/images/tech/javascript.svg",
-        "/src/assets/images/tech/tailwind.svg"
+        "/images/tech/react.svg",
+        "/images/tech/javascript.svg",
+        "/images/tech/tailwind.svg"
       ],
       "category": "React"
     },
     {
       "title": "Mohna Global Exim",
-      "image": "/src/assets/images/projects/mohna-global.jpg",
+      "image": "/images/projects/mohna-global.jpg",
       "link": "https://mohnaglobalexim.com/",
       "details": "A professional WordPress website for Mohna Global Exim, featuring product showcases, contact forms, and responsive design.",
       "techStack": [
-        "/src/assets/images/tech/wordpress.svg",
-        "/src/assets/images/tech/php.svg",
-        "/src/assets/images/tech/mysql.svg"
+        "/images/tech/wordpress.svg",
+        "/images/tech/php.svg",
+        "/images/tech/mysql.svg"
       ],
       "category": "WordPress"
     },
     {
       "title": "K S Cheema Knowledge Foundation",
-      "image": "/src/assets/images/projects/kscheema.jpg",
+      "image": "/images/projects/kscheema.jpg",
       "link": "https://kscheemaknowledgefoundation.co.in/",
       "details": "A comprehensive WordPress website for K S Cheema Knowledge Foundation, featuring course listings, events, and educational content.",
       "techStack": [
-        "/src/assets/images/tech/wordpress.svg",
-        "/src/assets/images/tech/php.svg",
-        "/src/assets/images/tech/mysql.svg"
+        "/images/tech/wordpress.svg",
+        "/images/tech/php.svg",
+        "/images/tech/mysql.svg"
       ],
       "category": "WordPress"
     },
     {
       "title": "Perfect React Todo",
-      "image": "/src/assets/images/projects/todo-app.jpg",
+      "image": "/images/projects/todo-app.jpg",
       "link": "https://perfect-react-todo.netlify.app/",
       "details": "A feature-rich todo application built with React, featuring task management, filtering, and local storage persistence.",
       "techStack": [
-        "/src/assets/images/tech/react.svg",
-        "/src/assets/images/tech/javascript.svg",
-        "/src/assets/images/tech/tailwind.svg"
+        "/images/tech/react.svg",
+        "/images/tech/javascript.svg",
+        "/images/tech/tailwind.svg"
       ],
       "category": "React"
     },
     {
       "title": "Shopify Fashion Store",
-      "image": "/src/assets/images/projects/shopify-fashion.jpg",
+      "image": "/images/projects/shopify-fashion.jpg",
       "link": "https://shopify-fashion-demo.com/",
       "details": "A custom Shopify store for a fashion brand, featuring product collections, size guides, and inventory management.",
       "techStack": [
-        "/src/assets/images/tech/shopify.svg",
-        "/src/assets/images/tech/liquid.svg",
-        "/src/assets/images/tech/css.svg"
+        "/images/tech/shopify.svg",
+        "/images/tech/liquid.svg",
+        "/images/tech/css.svg"
       ],
       "category": "Shopify"
     },
     {
       "title": "Shopify Electronics Store",
-      "image": "/src/assets/images/projects/shopify-electronics.jpg",
+      "image": "/images/projects/shopify-electronics.jpg",
       "link": "https://shopify-electronics-demo.com/",
       "details": "A modern Shopify store for electronics, with custom theme development, product management, and payment gateway integration.",
       "techStack": [
-        "/src/assets/images/tech/shopify.svg",
-        "/src/assets/images/tech/liquid.svg",
-        "/src/assets/images/tech/javascript.svg"
+        "/images/tech/shopify.svg",
+        "/images/tech/liquid.svg",
+        "/images/tech/javascript.svg"
       ],
       "category": "Shopify"
     },
     {
       "title": "Portfolio Website",
-      "image": "/src/assets/images/projects/portfolio.jpg",
+      "image": "/images/projects/portfolio.jpg",
       "link": "#",
       "details": "A modern portfolio website built with React, featuring smooth animations, responsive design, and dark mode support.",
       "techStack": [
-        "/src/assets/images/tech/react.svg",
-        "/src/assets/images/tech/tailwind.svg",
-        "/src/assets/images/tech/framer-motion.svg"
+        "/images/tech/react.svg",
+        "/images/tech/tailwind.svg",
+        "/images/tech/framer-motion.svg"
       ],
       "category": "React"
     },
     {
       "title": "Task Management App",
-      "image": "/src/assets/images/projects/task-manager.jpg",
+      "image": "/images/projects/task-manager.jpg",
       "link": "#",
       "details": "A collaborative task management application built with React and Firebase, featuring real-time updates and team collaboration.",
       "techStack": [
-        "/src/assets/images/tech/react.svg",
-        "/src/assets/images/tech/firebase.svg",
-        "/src/assets/images/tech/typescript.svg"
+        "/images/tech/react.svg",
+        "/images/tech/firebase.svg",
+        "/images/tech/typescript.svg"
       ],
       "category": "React"
     }

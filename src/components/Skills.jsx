@@ -4,62 +4,62 @@ import { motion } from "framer-motion";
 const skills = [
   {
     name: "React",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    icon: "/images/tech/react.svg",
     category: "Frontend"
   },
   {
     name: "JavaScript",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    icon: "/images/tech/javascript.svg",
     category: "Language"
   },
   {
     name: "TypeScript",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    icon: "/images/tech/typescript.svg",
     category: "Language"
   },
   {
     name: "Node.js",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    icon: "/images/tech/nodejs.svg",
     category: "Backend"
   },
   {
     name: "Python",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    icon: "/images/tech/python.svg",
     category: "Language"
   },
   {
     name: "Git",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+    icon: "/images/tech/git.svg",
     category: "Tools"
   },
   {
     name: "Docker",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+    icon: "/images/tech/docker.svg",
     category: "DevOps"
   },
   {
     name: "MongoDB",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    icon: "/images/tech/mongodb.svg",
     category: "Database"
   },
   {
     name: "Tailwind CSS",
-    icon: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+    icon: "/images/tech/tailwind.svg",
     category: "Frontend"
   },
   {
     name: "Next.js",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    icon: "/images/tech/nextjs.svg",
     category: "Frontend"
   },
   {
     name: "WordPress",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg",
+    icon: "/images/tech/wordpress.svg",
     category: "CMS"
   },
   {
     name: "Shopify",
-    icon: "https://cdn.simpleicons.org/shopify/white",
+    icon: "/images/tech/shopify.svg",
     category: "E-commerce"
   }
 ];
@@ -75,9 +75,8 @@ const SkillCard = ({ icon, name, category }) => {
             alt={name} 
             src={icon}
             onError={(e) => {
-              if (name === "Shopify") {
-                e.target.src = "https://cdn.worldvectorlogo.com/logos/shopify.svg";
-              }
+              console.error(`Failed to load image for ${name}: ${icon}`);
+              e.target.src = "/images/tech/placeholder.svg";
             }}
           />
         </div>

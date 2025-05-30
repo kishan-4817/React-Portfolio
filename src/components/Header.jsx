@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
-import logo from "../assets/logo-vect.svg";
+import logo from "/logo-vect.svg";
 import navigationData from "../data/navigation.json";
 
 const Header = () => {

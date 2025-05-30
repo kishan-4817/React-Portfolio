@@ -41,7 +41,7 @@ const projectImages = [
 
 const downloadImage = (url, filename) => {
   return new Promise((resolve, reject) => {
-    const filepath = path.join(__dirname, '../src/assets/images/projects', filename);
+    const filepath = path.join(__dirname, 'public/assets/images/projects', filename);
     const file = fs.createWriteStream(filepath);
 
     https.get(url, (response) => {
@@ -67,7 +67,7 @@ const downloadImage = (url, filename) => {
 const downloadAllImages = async () => {
   try {
     // Create projects directory if it doesn't exist
-    const projectsDir = path.join(__dirname, '../src/assets/images/projects');
+    const projectsDir = path.join(__dirname, 'public/assets/images/projects');
     if (!fs.existsSync(projectsDir)) {
       fs.mkdirSync(projectsDir, { recursive: true });
     }
