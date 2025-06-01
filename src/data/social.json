@@ -2,7 +2,7 @@
   "socialLinks": [
     {
       "name": "GitHub",
-      "url": "https://github.com/yourusername",
+      "url": "https://github.com/kishan-4817",
       "icon": "github",
       "color": "hover:text-[#333]",
       "gradient": "from-[#333] to-[#24292e]",
@@ -10,15 +10,15 @@
     },
     {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/yourusername",
+      "url": "https://www.linkedin.com/in/kishan-dhandhukiya-21bb2b184/",
       "icon": "linkedin",
       "color": "hover:text-[#0077B5]",
       "gradient": "from-[#0077B5] to-[#00a0dc]",
       "description": "Connect professionally"
     },
     {
-      "name": "Twitter",
-      "url": "https://twitter.com/yourusername",
+      "name": "X (Twitter)",
+      "url": "https://x.com/Kishan4817",
       "icon": "twitter",
       "color": "hover:text-[#1DA1F2]",
       "gradient": "from-[#1DA1F2] to-[#0d8bd9]",
@@ -26,7 +26,7 @@
     },
     {
       "name": "Instagram",
-      "url": "https://instagram.com/yourusername",
+      "url": "https://www.instagram.com/mr._kishan._d/",
       "icon": "instagram",
       "color": "hover:text-[#E1306C]",
       "gradient": "from-[#E1306C] to-[#833AB4]",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/yourusername",
+      "url": "https://t.me/Kishan_4817",
       "icon": "telegram",
       "color": "hover:text-[#0088cc]",
       "gradient": "from-[#0088cc] to-[#00a2ff]",
