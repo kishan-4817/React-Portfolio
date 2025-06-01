@@ -13,6 +13,17 @@ const Header = () => {
     setMenuOpen((prev) => !prev);
   }, []);
 
+  const handleScrollToSection = (e, to) => {
+    e.preventDefault();
+    if (to.startsWith('#')) {
+      const element = document.querySelector(to);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+        setMenuOpen(false);
+      }
+    }
+  };
+
   return (
     <motion.header 
       initial={{ y: -100 }}
@@ -41,12 +52,22 @@ const Header = () => {
                 transition={{ delay: 0.2 + index * 0.1 }}
                 className="relative group"
               >
-                <Link 
-                  to={to} 
-                  className="transition-colors hover:text-[var(--primary)]"
-                >
-                  {name}
-                </Link>
+                {to.startsWith('#') ? (
+                  <a 
+                    href={to}
+                    onClick={(e) => handleScrollToSection(e, to)}
+                    className="transition-colors hover:text-[var(--primary)]"
+                  >
+                    {name}
+                  </a>
+                ) : (
+                  <Link 
+                    to={to} 
+                    className="transition-colors hover:text-[var(--primary)]"
+                  >
+                    {name}
+                  </Link>
+                )}
                 <motion.span 
                   className="absolute bottom-[-3px] left-0 z-0 h-[3px] w-full rounded-t-full bg-[var(--primary)]"
                   initial={{ opacity: 0, scaleX: 0 }}
@@ -59,6 +80,7 @@ const Header = () => {
         </nav>
         <motion.a 
           href="#contact" 
+          onClick={(e) => handleScrollToSection(e, '#contact')}
           className="bg-[var(--primary)] text-[var(--foreground)] py-2 px-4 rounded cursor-pointer transition duration-300 hover:scale-110 hidden md:block"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
@@ -96,12 +118,22 @@ const Header = () => {
               transition={{ delay: index * 0.1 }}
               className="relative group"
             >
-              <Link 
-                to={to} 
-                className="text-[var(--foreground)] transition-colors hover:text-[var(--primary)]"
-              >
-                {name}
-              </Link>
+              {to.startsWith('#') ? (
+                <a 
+                  href={to}
+                  onClick={(e) => handleScrollToSection(e, to)}
+                  className="text-[var(--foreground)] transition-colors hover:text-[var(--primary)]"
+                >
+                  {name}
+                </a>
+              ) : (
+                <Link 
+                  to={to} 
+                  className="text-[var(--foreground)] transition-colors hover:text-[var(--primary)]"
+                >
+                  {name}
+                </Link>
+              )}
               <motion.span 
                 className="absolute bottom-[-3px] left-0 z-0 h-[3px] w-full rounded-t-full bg-[var(--primary)]"
                 initial={{ opacity: 0, scaleX: 0 }}
