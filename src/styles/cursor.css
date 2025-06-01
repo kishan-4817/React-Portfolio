@@ -1,0 +1,99 @@
+/* Cursor styles for interactive elements */
+a,
+button,
+[role="button"],
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+select,
+textarea {
+  cursor: pointer;
+}
+
+/* Disabled state cursor */
+button:disabled,
+input:disabled,
+select:disabled,
+textarea:disabled {
+  cursor: not-allowed;
+}
+
+/* Text selection cursor */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+textarea {
+  cursor: text;
+}
+
+/* Resize cursor for resizable elements */
+textarea {
+  resize: vertical;
+}
+
+/* Custom cursor for draggable elements */
+[draggable="true"] {
+  cursor: move;
+}
+
+/* Custom cursor for help elements */
+[data-tooltip],
+[title] {
+  cursor: help;
+}
+
+/* Custom cursor for zoom elements */
+.zoom-in {
+  cursor: zoom-in;
+}
+
+.zoom-out {
+  cursor: zoom-out;
+}
+
+/* Custom cursor for loading states */
+.loading {
+  cursor: wait;
+}
+
+/* Custom cursor for not-allowed states */
+.not-allowed {
+  cursor: not-allowed;
+}
+
+/* Custom cursor for progress states */
+.progress {
+  cursor: progress;
+}
+
+/* Custom cursor for text selection */
+.text-select {
+  cursor: text;
+}
+
+/* Custom cursor for vertical resize */
+.resize-vertical {
+  cursor: ns-resize;
+}
+
+/* Custom cursor for horizontal resize */
+.resize-horizontal {
+  cursor: ew-resize;
+}
+
+/* Custom cursor for diagonal resize */
+.resize-diagonal {
+  cursor: nwse-resize;
+}
+
+/* Custom cursor for grab states */
+.grab {
+  cursor: grab;
+}
+
+.grabbing {
+  cursor: grabbing;
+} 
