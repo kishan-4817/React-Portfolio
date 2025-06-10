@@ -142,7 +142,7 @@ body {
 
 .marquee-line-reverse {
   display: flex;
-  animation: marquee-reverse 200s linear infinite;
+  animation: marquee-reverse 100s linear infinite;
   width: fit-content;
   will-change: transform;
   overflow: hidden;

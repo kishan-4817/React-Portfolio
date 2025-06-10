@@ -1,6 +1,26 @@
 {
   "skills": [
     {
+      "name": "HTML",
+      "icon": "/images/tech/html-logo.svg",
+      "category": "Frontend"
+    },
+    {
+      "name": "CSS",
+      "icon": "/images/tech/css.svg",
+      "category": "Frontend"
+    },
+    {
+      "name": "Sass",
+      "icon": "/images/tech/sass-logo.svg",
+      "category": "Frontend"
+    },
+    {
+      "name": "Bootstrap",
+      "icon": "/images/tech/bootstrap-logo.svg",
+      "category": "Frontend"
+    },
+    {
       "name": "React",
       "icon": "/images/tech/react.svg",
       "category": "Frontend"
@@ -11,43 +31,13 @@
       "category": "Language"
     },
     {
-      "name": "TypeScript",
-      "icon": "/images/tech/typescript.svg",
-      "category": "Language"
-    },
-    {
-      "name": "Node.js",
-      "icon": "/images/tech/nodejs.svg",
-      "category": "Backend"
-    },
-    {
-      "name": "Python",
-      "icon": "/images/tech/python.svg",
-      "category": "Language"
-    },
-    {
       "name": "Git",
       "icon": "/images/tech/git.svg",
       "category": "Tools"
     },
     {
-      "name": "Docker",
-      "icon": "/images/tech/docker.svg",
-      "category": "DevOps"
-    },
-    {
-      "name": "MongoDB",
-      "icon": "/images/tech/mongodb.svg",
-      "category": "Database"
-    },
-    {
       "name": "Tailwind CSS",
       "icon": "/images/tech/tailwind.svg",
-      "category": "Frontend"
-    },
-    {
-      "name": "Next.js",
-      "icon": "/images/tech/nextjs.svg",
       "category": "Frontend"
     },
     {
@@ -56,9 +46,24 @@
       "category": "CMS"
     },
     {
+      "name": "Woocommerce",
+      "icon": "/images/tech/WooCommerce-logo.svg",
+      "category": "E-commerce"
+    },
+    {
+      "name": "Elementor",
+      "icon": "/images/tech/elementor-icon.svg",
+      "category": "Page Builder"
+    },
+    {
       "name": "Shopify",
       "icon": "/images/tech/shopify.svg",
       "category": "E-commerce"
+    },
+    {
+      "name": "Browser Stack",
+      "icon": "/images/tech/BrowserStack.svg",
+      "category": "Web Testing"
     }
   ]
 } 

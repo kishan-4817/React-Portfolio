@@ -30,10 +30,15 @@ const Projects = () => {
             alt={item.title}
             className="w-full h-48 object-cover transform transition-transform duration-500 group-hover:scale-105"
           />
-          <div className="absolute top-4 left-4 z-20">
+          <div className="absolute top-4 left-4 z-20 flex gap-2">
             <span className="px-3 py-1 text-sm font-medium text-gray-200 bg-gray-900/80 backdrop-blur-sm rounded-full border border-gray-700/50">
               {item.category}
             </span>
+            {item.status === "coming-soon" && (
+              <span className="px-3 py-1 text-sm font-medium text-purple-200 bg-purple-900/80 backdrop-blur-sm rounded-full border border-purple-700/50">
+                Coming Soon
+              </span>
+            )}
           </div>
         </div>
 
@@ -57,25 +62,44 @@ const Projects = () => {
             ))}
           </div>
 
-          <a
-            href={item.link}
-            className="inline-flex items-center text-sm font-medium text-purple-400 hover:text-purple-300"
-          >
-            View Project
-            <svg
-              className="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
+          {item.status === "coming-soon" ? (
+            <span className="inline-flex items-center text-sm font-medium text-purple-400">
+              Coming Soon
+              <svg
+                className="w-4 h-4 ml-1"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </span>
+          ) : (
+            <a
+              href={item.link}
+              className="inline-flex items-center text-sm font-medium text-purple-400 hover:text-purple-300"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M14 5l7 7m0 0l-7 7m7-7H3"
-              />
-            </svg>
-          </a>
+              View Project
+              <svg
+                className="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                />
+              </svg>
+            </a>
+          )}
         </div>
       </motion.div>
     ));

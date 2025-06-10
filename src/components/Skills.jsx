@@ -1,72 +1,20 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { skills } from "../data/skills";
 
-const skills = [
-  {
-    name: "React",
-    icon: "/images/tech/react.svg",
-    category: "Frontend"
-  },
-  {
-    name: "JavaScript",
-    icon: "/images/tech/javascript.svg",
-    category: "Language"
-  },
-  {
-    name: "TypeScript",
-    icon: "/images/tech/typescript.svg",
-    category: "Language"
-  },
-  {
-    name: "Node.js",
-    icon: "/images/tech/nodejs.svg",
-    category: "Backend"
-  },
-  {
-    name: "Python",
-    icon: "/images/tech/python.svg",
-    category: "Language"
-  },
-  {
-    name: "Git",
-    icon: "/images/tech/git.svg",
-    category: "Tools"
-  },
-  {
-    name: "Docker",
-    icon: "/images/tech/docker.svg",
-    category: "DevOps"
-  },
-  {
-    name: "MongoDB",
-    icon: "/images/tech/mongodb.svg",
-    category: "Database"
-  },
-  {
-    name: "Tailwind CSS",
-    icon: "/images/tech/tailwind.svg",
-    category: "Frontend"
-  },
-  {
-    name: "Next.js",
-    icon: "/images/tech/nextjs.svg",
-    category: "Frontend"
-  },
-  {
-    name: "WordPress",
-    icon: "/images/tech/wordpress.svg",
-    category: "CMS"
-  },
-  {
-    name: "Shopify",
-    icon: "/images/tech/shopify.svg",
-    category: "E-commerce"
+// Function to shuffle array
+const shuffleArray = (array) => {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
   }
-];
+  return shuffled;
+};
 
 const SkillCard = ({ icon, name, category }) => {
   return (
-    <div className="group relative flex items-center gap-4 px-6 py-3 rounded-full border border-gray-200/20 bg-gray-950/[.02] hover:bg-gray-950/[.05] dark:border-gray-50/10 dark:bg-gray-50/[.05] dark:hover:bg-gray-50/[.10] transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/20 dark:hover:shadow-blue-500/10 mx-2">
+    <div className="group relative flex items-center gap-4 px-6 py-3 rounded-full border border-gray-200/20 bg-gray-950/[.02] hover:bg-gray-950/[.05] dark:border-gray-50/10 dark:bg-gray-50/[.05] dark:hover:bg-gray-50/[.10] transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/20 dark:hover:shadow-blue-500/10 mx-2 flex-shrink-0 whitespace-nowrap">
       <div className="relative">
         <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-pink-500/20 blur-xl group-hover:blur-2xl transition-all duration-300 opacity-0 group-hover:opacity-100" />
         <div className="relative h-8 w-8 flex items-center justify-center">
@@ -95,6 +43,10 @@ const SkillCard = ({ icon, name, category }) => {
 };
 
 export default function Skills() {
+  // Create different shuffled versions for each row
+  const firstRowSkills = shuffleArray(skills);
+  const secondRowSkills = shuffleArray(skills);
+
   return (
     <div className="relative flex w-full flex-col items-center justify-center py-8">
       <motion.div
@@ -113,18 +65,18 @@ export default function Skills() {
       <div className="w-full max-w-7xl mx-auto px-4">
         <div className="flex flex-col gap-4 overflow-hidden">
           <div className="marquee-line items-center w-full">
-            {skills.map((skill) => (
+            {firstRowSkills.map((skill) => (
               <SkillCard key={skill.name} {...skill} />
             ))}
-            {skills.map((skill) => (
+            {firstRowSkills.map((skill) => (
               <SkillCard key={`${skill.name}-duplicate`} {...skill} />
             ))}
           </div>
           <div className="marquee-line-reverse items-center w-full">
-            {skills.map((skill) => (
+            {secondRowSkills.map((skill) => (
               <SkillCard key={`${skill.name}-reverse`} {...skill} />
             ))}
-            {skills.map((skill) => (
+            {secondRowSkills.map((skill) => (
               <SkillCard key={`${skill.name}-reverse-duplicate`} {...skill} />
             ))}
           </div>

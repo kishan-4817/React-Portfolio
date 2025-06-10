@@ -81,9 +81,6 @@ const Contact = () => {
   return (
     <section className="relative py-16">
       {/* Gradient Effects */}
-      <div className="absolute -top-[20rem] left-0 w-[40rem] h-[40rem] bg-indigo-500/30 blur-[8rem] pointer-events-none" />
-      <div className="absolute -bottom-[20rem] right-0 w-[40rem] h-[40rem] bg-purple-500/30 blur-[8rem] pointer-events-none" />
-
       <div className="container mx-auto max-w-screen-xl px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

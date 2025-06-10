@@ -8,7 +8,9 @@
       "techStack": [
         "/images/tech/react.svg",
         "/images/tech/javascript.svg",
-        "/images/tech/tailwind.svg"
+        "/images/tech/tailwind.svg",
+        "/images/tech/framer-motion.svg",
+        "/images/tech/firebase.svg"
       ],
       "category": "React"
     },
@@ -20,7 +22,9 @@
       "techStack": [
         "/images/tech/wordpress.svg",
         "/images/tech/php.svg",
-        "/images/tech/mysql.svg"
+        "/images/tech/mysql.svg",
+        "/images/tech/elementor-icon.svg",
+        "/images/tech/acf.svg"
       ],
       "category": "WordPress"
     },
@@ -32,7 +36,9 @@
       "techStack": [
         "/images/tech/wordpress.svg",
         "/images/tech/php.svg",
-        "/images/tech/mysql.svg"
+        "/images/tech/mysql.svg",
+        "/images/tech/elementor-icon.svg",
+        "/images/tech/woo-logo.svg"
       ],
       "category": "WordPress"
     },
@@ -44,57 +50,26 @@
       "techStack": [
         "/images/tech/react.svg",
         "/images/tech/javascript.svg",
-        "/images/tech/tailwind.svg"
+        "/images/tech/tailwind.svg",
+        "/images/tech/framer-motion.svg",
+        "/images/tech/firebase.svg"
       ],
       "category": "React"
     },
     {
       "title": "Shopify Fashion Store",
       "image": "/images/projects/shopify-fashion.jpg",
-      "link": "https://shopify-fashion-demo.com/",
-      "details": "A custom Shopify store for a fashion brand, featuring product collections, size guides, and inventory management.",
+      "link": "#",
+      "details": "Coming Soon: A custom Shopify store for a fashion brand, featuring product collections, size guides, and inventory management.",
       "techStack": [
         "/images/tech/shopify.svg",
         "/images/tech/liquid.svg",
-        "/images/tech/css.svg"
+        "/images/tech/css.svg",
+        "/images/tech/javascript.svg",
+        "/images/tech/html-logo.svg"
       ],
-      "category": "Shopify"
-    },
-    {
-      "title": "Shopify Electronics Store",
-      "image": "/images/projects/shopify-electronics.jpg",
-      "link": "https://shopify-electronics-demo.com/",
-      "details": "A modern Shopify store for electronics, with custom theme development, product management, and payment gateway integration.",
-      "techStack": [
-        "/images/tech/shopify.svg",
-        "/images/tech/liquid.svg",
-        "/images/tech/javascript.svg"
-      ],
-      "category": "Shopify"
-    },
-    {
-      "title": "Portfolio Website",
-      "image": "/images/projects/portfolio.jpg",
-      "link": "#",
-      "details": "A modern portfolio website built with React, featuring smooth animations, responsive design, and dark mode support.",
-      "techStack": [
-        "/images/tech/react.svg",
-        "/images/tech/tailwind.svg",
-        "/images/tech/framer-motion.svg"
-      ],
-      "category": "React"
-    },
-    {
-      "title": "Task Management App",
-      "image": "/images/projects/task-manager.jpg",
-      "link": "#",
-      "details": "A collaborative task management application built with React and Firebase, featuring real-time updates and team collaboration.",
-      "techStack": [
-        "/images/tech/react.svg",
-        "/images/tech/firebase.svg",
-        "/images/tech/typescript.svg"
-      ],
-      "category": "React"
+      "category": "Shopify",
+      "status": "coming-soon"
     }
   ]
 } 
