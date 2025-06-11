@@ -30,7 +30,7 @@ const BlogPostCard = ({ post }) => {
           {post.title}
         </h2>
         
-        <p className="text-[var(--foreground)]/70 mb-4 line-clamp-2 flex-grow">
+        <p className="text-[var(--foreground)]/70 mb-4 line-clamp-3 flex-grow">
           {post.excerpt}
         </p>
 

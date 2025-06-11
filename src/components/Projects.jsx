@@ -46,7 +46,7 @@ const Projects = () => {
           <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-purple-400 transition-colors">
             {item.title}
           </h3>
-          <p className="text-gray-400 text-sm mb-4 line-clamp-2">
+          <p className="text-gray-400 text-sm mb-4 line-clamp-3">
             {item.details}
           </p>
 
