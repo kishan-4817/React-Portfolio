@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Meteors } from "../components/magicui/meteors";
 import { BorderBeam } from "../components/magicui/border-beam";
 import { motion } from "framer-motion";
+import ResumeDownload from "./ResumeDownload";
 
 const Hero = () => {
   return (
@@ -24,9 +25,12 @@ const Hero = () => {
             <p className="text-gray-400 text-lg md:text-xl mb-8 md:mb-12">
               A passionate web developer with a strong focus on creating beautiful and functional web applications. I have a strong background in HTML, CSS, JavaScript, React, Redux, and Node.js. I'm also well-versed in various tools such as Git, Webpack, and Babel. I'm always looking for new challenges and opportunities to improve my skills.
             </p>
-            <Link to="https://calendly.com/kishandhandhukiya8/30min" target="_blank" className="bg-[var(--primary)] text-[var(--foreground)] py-3 px-6 rounded hover:scale-110 transition-transform duration-300">
-              Let's Connect
-            </Link>
+            <div className="flex items-center gap-4">
+              <Link to="https://calendly.com/kishandhandhukiya8/30min" target="_blank" className="bg-[var(--primary)] text-[var(--foreground)] py-3 px-6 rounded hover:scale-110 transition-transform duration-300">
+                Let's Connect
+              </Link>
+              <ResumeDownload />
+            </div>
           </motion.div>
         </div>
         <div className="md:w-1/2 flex justify-center items-center z-50">
