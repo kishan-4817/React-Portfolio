@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kishandhandhukiya.com/sitemap.xml 
+Sitemap: https://kishan-codes.netlify.app/sitemap.xml 
