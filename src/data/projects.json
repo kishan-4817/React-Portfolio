@@ -43,6 +43,32 @@
       "category": "WordPress"
     },
     {
+      "title": "Nuvira Biz",
+      "image": "/images/projects/nuvira-biz.webp",
+      "link": "https://nuvira.biz/",
+      "details": "A modern business website for Nuvira Biz, showcasing services, testimonials, and a contact form, built with WordPress.",
+      "techStack": [
+        "/images/tech/wordpress.svg",
+        "/images/tech/php.svg",
+        "/images/tech/mysql.svg",
+        "/images/tech/elementor-icon.svg"
+      ],
+      "category": "WordPress"
+    },
+    {
+      "title": "Asha Corporation",
+      "image": "/images/projects/asha-corp.jpg",
+      "link": "https://ashacorporation.com/",
+      "details": "A professional WordPress website for Asha Corporation, featuring product showcases, company information, and a contact form.",
+      "techStack": [
+        "/images/tech/wordpress.svg",
+        "/images/tech/php.svg",
+        "/images/tech/mysql.svg",
+        "/images/tech/elementor-icon.svg"
+      ],
+      "category": "WordPress"
+    },
+    {
       "title": "Perfect React Todo",
       "image": "/images/projects/todo-app.jpg",
       "link": "https://perfect-react-todo.netlify.app/",

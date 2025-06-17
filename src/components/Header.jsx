@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import logo from "/logo-vect.svg";
 import navigationData from "../data/navigation.json";
@@ -7,7 +7,6 @@ import navigationData from "../data/navigation.json";
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const { navLinks } = navigationData;
-  const location = useLocation();
 
   const handleMenuClick = useCallback(() => {
     setMenuOpen((prev) => !prev);

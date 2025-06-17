@@ -24,7 +24,7 @@ const Hero = () => {
             <p className="text-gray-400 text-lg md:text-xl mb-8 md:mb-12">
               A passionate web developer with a strong focus on creating beautiful and functional web applications. I have a strong background in HTML, CSS, JavaScript, React, Redux, and Node.js. I'm also well-versed in various tools such as Git, Webpack, and Babel. I'm always looking for new challenges and opportunities to improve my skills.
             </p>
-            <Link to="https://calendly.com/kishandhandhukiya8/30min" target="_blank" className="bg-gradient-to-r from-blue-500 to-purple-500 text-white py-2 px-6 rounded hover:scale-105 transition-transform duration-300">
+            <Link to="https://calendly.com/kishandhandhukiya8/30min" target="_blank" className="bg-[var(--primary)] text-[var(--foreground)] py-3 px-6 rounded hover:scale-110 transition-transform duration-300">
               Let's Connect
             </Link>
           </motion.div>
