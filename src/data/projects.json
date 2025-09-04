@@ -69,6 +69,19 @@
       "category": "WordPress"
     },
     {
+      "title": "Akshar Info Solutions",
+      "image": "/images/projects/task-manager.jpg",
+      "link": "https://mohnaglobalexim.com/",
+      "details": "A professional WordPress website for Akshar Info Solutions, an IT company providing a range of IT services, including web development, software development, and digital marketing.",
+      "techStack": [
+        "/images/tech/wordpress.svg",
+        "/images/tech/elementor-icon.svg",
+        "/images/tech/php.svg",
+        "/images/tech/mysql.svg"
+      ],
+      "category": "WordPress"
+    },
+    {
       "title": "Perfect React Todo",
       "image": "/images/projects/todo-app.jpg",
       "link": "https://perfect-react-todo.netlify.app/",
