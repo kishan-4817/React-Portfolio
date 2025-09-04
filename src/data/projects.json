@@ -71,13 +71,28 @@
     {
       "title": "Akshar Info Solutions",
       "image": "/images/projects/task-manager.jpg",
-      "link": "https://mohnaglobalexim.com/",
+      "link": "https://aksharinfosolution.com/",
       "details": "A professional WordPress website for Akshar Info Solutions, an IT company providing a range of IT services, including web development, software development, and digital marketing.",
       "techStack": [
         "/images/tech/wordpress.svg",
         "/images/tech/elementor-icon.svg",
         "/images/tech/php.svg",
         "/images/tech/mysql.svg"
+      ],
+      "category": "WordPress"
+    },
+    {
+      "title": "Experteeth Dental Clinic",
+      "image": "/images/projects/mohna-global.jpg",
+      "link": "https://lightblue-oyster-372425.hostingersite.com/",
+      "details": "A modern WordPress website for Experteeth Dental Clinic, featuring services, patient testimonials, and appointment booking functionality.",
+      "techStack": [
+        "/images/tech/wordpress.svg",
+        "/images/tech/php.svg",
+        "/images/tech/mysql.svg",
+        "/images/tech/elementor-icon.svg",
+        "/images/tech/gsap.svg",
+        "/images/tech/css.svg"
       ],
       "category": "WordPress"
     },
